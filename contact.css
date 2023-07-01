@@ -1,0 +1,34 @@
+.storeinfo__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: -40px;
+}
+
+@media only screen and (min-width:769px) and (max-width:1439px) {
+    .btn {
+        padding: 1rem 1rem 1rem 1rem;
+        font-size: 2rem;
+        display: inline-block;
+    }
+
+    .book_btn {
+        margin-top: -85px;
+        margin-left: 0.5rem;
+
+    }
+
+    .primary-btn {
+        margin-left: 30rem;
+        font-size: 1.6rem;
+    }
+
+    .storeinfo__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 20px;
+    }
+}
