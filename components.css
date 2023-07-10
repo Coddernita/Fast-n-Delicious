@@ -163,6 +163,10 @@
     background: #ff4003;
 }
 
+.btn a {
+    color: white;
+}
+
 @media only screen and (min-width: 768px) {
     .btn {
         padding: 1rem 1rem 1rem 1rem;
@@ -929,7 +933,66 @@ footer {
     .btn {
         margin-left: 40px;
     }
+}
 
-    .form__group {}
+/* End Form Styles */
+/* Complete Styles */
+.complete {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 
-    /* End Form Styles */
+.popup {
+    background-color: var(--lightGreen-1);
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 50px 30px;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img {
+    width: 50%;
+    border-radius: 50%;
+    margin-top: -130px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.popup h2 {
+    font-size: 45px;
+    font-weight: 500;
+    padding-top: 45px;
+}
+
+.popup p {
+    padding-top: 15px;
+    font-size: 23px;
+}
+
+.popup button {
+    margin-top: 30px;
+    width: 70%;
+    background-color: #ff4003;
+    border-color: #ff4003;
+    border-radius: 35px;
+    height: 4vh;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+
+}
+
+/* End Complete Styles */
