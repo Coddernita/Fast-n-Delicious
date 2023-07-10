@@ -11,17 +11,21 @@
         padding: 1rem 1rem 1rem 1rem;
         font-size: 2rem;
         display: inline-block;
+        text-decoration:none;
+        color:black;
     }
 
     .book_btn {
         margin-top: -85px;
         margin-left: 0.5rem;
-
+        text-decoration:none;
     }
 
     .primary-btn {
         margin-left: 30rem;
         font-size: 1.6rem;
+        text-decoration:none;
+        
     }
 
     .storeinfo__wrapper {
