@@ -161,22 +161,26 @@
 .primary-btn {
     color: var(--white-1);
     background: #ff4003;
+    text-decoration:none;
 }
 
 @media only screen and (min-width: 768px) {
     .btn {
         padding: 1rem 1rem 1rem 1rem;
         font-size: 2rem;
+        text-decoration:none;
         display: inline-block;
     }
 
     .book__btn {
         margin-top: -75px;
+        text-decoration:none;
     }
 
     .primary-btn {
         background: #ff4003;
         margin-left: 30rem;
+        text-decoration:none;
     }
 
     #logo {
@@ -200,10 +204,12 @@
     .primary-btn {
         color: var(--white-1);
         background: #ff4003;
+        text-decoration:none;
     }
 
     #btns {
         width: 500px;
+        text-decoration:none;
     }
 }
 
